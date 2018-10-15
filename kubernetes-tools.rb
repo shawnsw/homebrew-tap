@@ -8,6 +8,7 @@ class KubernetesTools < Formula
     depends_on "coreutils"
 
     def install
+      bin.install "bin/__common"
       bin.install "bin/ktools"
       bin.install "bin/kctx"
       bin.install "bin/kns"
