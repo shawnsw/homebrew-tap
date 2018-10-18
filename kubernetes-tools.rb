@@ -2,7 +2,7 @@ class KubernetesTools < Formula
   desc "Kubernetes tools is a set of programs that help you operate your Kubernetes clusters more efficiently."
   homepage "https://github.com/shawnxlw/kubernetes-tools"
   url "https://github.com/shawnxlw/kubernetes-tools/archive/v2.0.0.tar.gz"
-  sha256 "e0680aa0ae87ea6868936bd0b17bc7456b39355ed420211d4518448301912061"
+  sha256 "775d5fb697c18e467c66bf208f092bc7a72468877ce22776597d80c6c4ef5dc3"
 
     depends_on "jq"
     depends_on "coreutils"
