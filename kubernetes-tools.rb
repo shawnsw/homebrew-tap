@@ -15,8 +15,6 @@ class KubernetesTools < Formula
       bin.install "bin/kpod"
       bin.install "bin/kexec"
       bin.install "bin/kcopy"
-      bin.install "bin/busybox"
-      bin.install "bin/curl"
       prefix.install Dir["completion"]
     end
 
